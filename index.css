@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 *{
     box-sizing: border-box;
 }
@@ -174,7 +177,8 @@ body {
     color:rgb(230, 33, 33);
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
-    margin-right: 30px;
+    margin-right: 10px;
+    margin-bottom: 35px;
 }
 
   
@@ -205,7 +209,7 @@ body {
     color: black;
 }
 
-.man {
+.title {
     height: 0px;
     margin-top: 40px;
     padding-left: 10px;
@@ -256,10 +260,13 @@ body {
   }
 
   .product_title {
-    font-size: x-large;
+    margin-top: 35px;
+    font-size: large;
     font-weight: 700;
     font-family: "Fraunces", serif;
     line-height: 0.2;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .card_text {
@@ -299,12 +306,84 @@ body {
 
 
 
+/* About Shipping */
+
+.about_shipping {
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 100px; */
+    padding-top: 30px;
+}
+
+.about_img {
+    width: 220px;
+}
+
+.shipping {
+    width: 310px;
+}
+    
+ .about_box h4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+
+.about_box p {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
 
 
 
+/* Footer */
+
+footer {
+    background-color: #f0f6f6;
+
+}
+
+.footer-text {
+    font-size: small;
+    /* font-weight: lighter; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-text:hover {
+    cursor: pointer;
+}
+
+.foot {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding : 20px 30px 0px 30px;
+    width: 90%;
+}
 
 
+.line {
+    width: 95%;
+}
 
+.privacy {
+    display: flex;
+    padding : 10px 50px;
+    justify-content: space-between;
+}
+
+.privacy div  {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 5px;
+}
+
+
+.privacy p span {
+    color: red;
+}
 
 
 
